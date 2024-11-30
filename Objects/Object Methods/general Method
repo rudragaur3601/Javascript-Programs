@@ -1,0 +1,29 @@
+// //Object.assign(target, source)
+// //target Object
+// const person1={
+//     fname:"Rudra",
+//     Lname:"gaur",
+//     age:23
+
+// };
+// // source object
+// const person2={
+//     fname:"anne",
+//     Lname:"smith"
+// }
+// Object.assign(person2,person1)
+// console.log(person2)
+
+
+
+// Returns an array of the key/value pairs of an object
+// Object.entries(object)
+const person={
+
+    fname:"Rudra",
+    Lname:"gaur",
+    age:23
+};
+console.log(person)   //{ fname: 'Rudra', Lname: 'gaur', age: 23 }
+let text=Object.entries(person)
+console.log(text) //[ [ 'fname', 'Rudra' ], [ 'Lname', 'gaur' ], [ 'age', 23 ] ]

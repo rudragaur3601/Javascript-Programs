@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+  
+}
+h1{
+    color: blue;
+}
+form{
+    text-align: center;
+    background-color: white;
+    max-width: 350px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow : 20px 20px 30px black,-20px -20px 30px black;
+   
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 15px;
+    border-radius:5px;
+    padding: 10px 15px;
+}
